@@ -1,1 +1,1 @@
-# HospitalTriageProcess
+# MediQ
