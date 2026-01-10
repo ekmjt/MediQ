@@ -1,42 +1,40 @@
-# MediQ
-
 MediQueue Conversational AI Triage System
 
 Overview:
-MediQueue is a conversational AI application designed to streamline the hospital triage process before a patient even arrives at the emergency room.
+MediQueue is a conversational AI application that helps streamline the hospital triage process from the comfort of a patient’s home.
 
 Process Details:
 
 At-Home Triage Assessment:
 
-Patients access the MediQueue portal on their phone or laptop from home.
+Patients use the MediQueue portal on their phone or laptop to answer a series of questions.
 
-The AI asks a series of guided questions to determine the severity of the user's condition—ranging from potentially life-threatening emergencies to minor issues.
-
-Based on responses, the system assigns a priority level.
+The AI determines the severity of their condition and assigns an initial priority level.
 
 Balancing Severity and Wait Time:
 
-The app not only prioritizes by medical urgency but also factors in how long someone has already been waiting.
+The system dynamically balances medical urgency with how long a patient has been waiting.
 
-It creates a proportional weighting system so that those who have waited longer are not overlooked, even if their condition is less severe.
+This ensures fair queue management by giving proportional weight to both factors.
 
 Providing Initial Home Guidance:
 
-While waiting or preparing to go to the hospital, the AI offers preliminary advice on steps the user can take at home—like basic first aid measures—until they reach the ER.
+MediQueue offers initial advice on what the patient can do at home while waiting, like simple first aid steps.
 
-The system checks in with the user periodically (e.g., every 30 minutes or an hour) to ensure their condition hasn’t worsened.
+It also checks in periodically (e.g., every 30 minutes) to ensure the patient’s condition is stable.
 
 Dynamic Queue Management:
 
-The queue is dynamic, adjusting in real-time as new patients are added or existing patients are reassessed.
+The queue updates in real time as patients are added or removed, maintaining a dynamic balance between severity and waiting time.
 
-This ensures a fair balance between urgency and wait time.
+User-Initiated Queue Position Change:
+
+Users have the option to voluntarily lower their position in the queue if they realize they’ll be running late or if their condition is less urgent.
+
+This allows them to give others a chance and helps keep the queue fair and flexible.
 
 Preventing Queue Misuse:
 
-To prevent misuse, if a user has previously falsely escalated their condition to jump the queue, the system will note that.
+If a user has previously misrepresented their condition, the AI will note this and confirm with them on future visits to ensure honesty.
 
-On future visits, the AI will politely confirm with the user to ensure they are not repeating the behavior.
-
-If misuse continues, the app can flag that user and require manual triage at the hospital.
+Continued misuse may lead to manual triage at the hospital.
